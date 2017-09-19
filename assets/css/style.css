@@ -1,0 +1,129 @@
+/* CSS Document */
+
+@charset "UTF-8";
+
+/* layout */
+
+* {
+	margin: 0;
+ 	padding: 0;
+ 	border: none;
+}
+
+html {
+	width: 100%;
+ 	height: 100%;
+ 	background-color: #EAEAEF;
+}
+
+body {
+	height: 100%;
+	font-size: 16px;
+}
+
+span { 
+	display: inline-block;
+}
+
+.clear {
+	clear: both;
+}
+
+footer {
+	padding-top: 4em; 
+}
+
+input {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 6px 8px;
+	border: 1px solid #999;
+	float: left;
+}
+
+input.field {
+	width: 20em;
+	max-width: 100%;
+}
+
+input.button {
+	padding: .5em 2em;
+	border: none;
+	cursor: pointer; 
+	font-size: 1.25em;
+	color: #FFF;
+	background-color: #FF007F;
+	transition: background-color 0.2s ease-in-out 0s;
+}
+
+input.button:hover {
+	background-color:#777;
+}
+
+#wrapper {
+	width: 40em;
+	max-width: 90%;
+	min-height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#content {
+	padding-top: 4em;
+	padding-bottom: 1em;
+}
+
+/* styles */
+
+::selection {
+	color: #FFF;
+    background-color: #562800;
+}
+
+::-moz-selection {
+	color: #FFF;
+    background-color: #562800;
+}
+
+h1, .secondary {
+	color: #FF007F;
+}
+
+h1 {
+	font-family: "Cormorant Garamond", sans-serif; 
+	font-size: 3em; /* 16 x 3 = 48 */ 
+	margin-bottom: .5em;
+}
+
+h3 {
+	font-family: "Proza Libre", sans-serif;
+	font-size: 1em; /* 16 x 1 = 16 */
+	font-weight: normal;
+	margin-bottom: 1em;
+	color: #777;
+}
+
+p, input {
+	font-family: "Proza Libre", sans-serif;
+	font-size: 1.25em; /* 16 x 1.25 = 20 */
+	margin-bottom: 1em;
+}
+
+p, .primary {
+	color: #562800;
+}
+
+a, a:visited {
+	color: #FF007F;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	border-bottom: none;
+}
+
+a:hover {
+	border-bottom: 1px solid #FF007F;
+}
