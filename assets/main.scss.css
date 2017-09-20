@@ -100,7 +100,7 @@ h1 {
 	margin-bottom: .5em;
 }
 
-h3 {
+h3, .errorText {
 	font-family: "Proza Libre", sans-serif;
 	font-size: 1em; /* 16 x 1 = 16 */
 	font-weight: 400;
@@ -130,4 +130,9 @@ h1 a:hover {
 
 a:hover {
 	border-bottom: 1px solid #FF007F;
+}
+
+.errorText {
+	margin-top: -2em;
+	margin-bottom: 1em;
 }
