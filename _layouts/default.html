@@ -9,18 +9,22 @@
 
 <div id="subscribe">
 	<h3>the D.co inbox</h3>
-
 	<form action="//designcoop.us16.list-manage.com/subscribe/post?u=627516cb06df0fe4a21fc42a6&amp;id=efb9220fe6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			<div>
-				<input class="field full-width email" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+			<div class="mc-field-group">
+				<input type="email" value="" name="EMAIL" class="field full-width required email" id="mce-EMAIL" placeholder="email address" required>
 			</div>
 				
-			<div class="left-minor-input">
-				<input class="field" type="text" value="" name="FNAME" id="mce-FNAME" placeholder="first name" required>
+			<div class="mc-field-group left-minor-input">
+				<input type="text" value="" name="FNAME" class="field required" id="mce-FNAME" placeholder="first name" required>
 			</div>
 
-			<div class="right-major-input">
-				<input class="field" type="text" value="" name="LNAME" id="mce-LNAME" placeholder="last name" required>
+			<div class="mc-field-group right-major-input">
+				<input type="text" value="" name="LNAME" class="field required" id="mce-LNAME" placeholder="last name" required>
+			</div>
+
+			<div id="mce-responses" class="clear">
+				<div class="response" id="mce-error-response" style="display: none"></div>
+				<div class="response" id="mce-success-response" style="display: none"></div>
 			</div>
 			
 			<!-- DO NOT REMOVE -->
@@ -31,6 +35,12 @@
 			<div class="clear">
 				<input class="button" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
 			</div>
+
+			<!-- form validation -->
+			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+			<script type='text/javascript'>
+				(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+			</script>
 	</form>
 </div>
 

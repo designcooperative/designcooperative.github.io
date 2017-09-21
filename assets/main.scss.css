@@ -120,15 +120,18 @@ h1 {
 	margin-bottom: .5em;
 }
 
-h3 {
+h3, .mc-field-group .mce_inline_error:last-child {
 	font-family: "Proza Libre", sans-serif;
 	font-size: 1em; /* 16 x 1 = 16 */
 	font-weight: 400;
 	margin-bottom: 1em;
-	color: #777;
 }
 
-p, input {
+h3 {
+	color: #777;;
+}
+
+p, input, .response {
 	font-family: "Proza Libre", sans-serif;
 	font-size: 1.25em; /* 16 x 1.25 = 20 */
 	font-weight: 400;
@@ -150,6 +153,19 @@ h1 a:hover {
 
 a:hover {
 	border-bottom: 1px solid #FF007F;
+}
+
+.mc-field-group .mce_inline_error:last-child {
+    margin-top: -.75em;
+    margin-bottom: 1.25em;
+}
+
+.mce_inline_error, #mce-error-response {
+	color: #CC0000;
+}
+
+#mce-success-response {
+	color: #336600;
 }
 
 /* responsive */
