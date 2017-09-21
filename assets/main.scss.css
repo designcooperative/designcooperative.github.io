@@ -11,6 +11,9 @@
 	margin: 0;
  	padding: 0;
  	border: none;
+ 	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
 }
 
 html {
@@ -37,17 +40,13 @@ footer {
 }
 
 input {
-	-webkit-box-sizing: border-box; 
-	-moz-box-sizing: border-box; 
-	box-sizing: border-box;
 	border-radius: 4px;
 	padding: 6px 8px;
 	border: 1px solid #999;
 }
 
 input.field {
-	width: 20em;
-	max-width: 100%;
+	width: 100%;
 }
 
 input.button {
@@ -75,6 +74,27 @@ input.button:hover {
 #content {
 	padding-top: 4em;
 	padding-bottom: 1em;
+}
+
+#manifesto {
+	border-bottom: 6px double #FF007F;
+}
+
+#subscribe {
+	width: 30em;
+	max-width: 100%;
+	margin-top: 1em;
+}
+
+.left-minor-input {
+	float: left;
+	padding-right: .5em;
+	width: 40%;
+}
+
+.right-major-input {
+	float: left;
+	width: 60%;
 }
 
 /* styles */
@@ -130,4 +150,19 @@ h1 a:hover {
 
 a:hover {
 	border-bottom: 1px solid #FF007F;
+}
+
+}
+
+/* responsive */
+
+@media (max-width: 30em) {
+	.left-minor-input {
+		padding-right: 0;
+		width: 100%;
+	}
+
+	.right-major-input {
+		width: 100%;
+	}
 }
