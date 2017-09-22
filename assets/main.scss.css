@@ -160,11 +160,11 @@ a:hover {
     margin-bottom: 1.25em;
 }
 
-.mce_inline_error, #mce-error-response {
+.error, .mce_inline_error, #mce-error-response {
 	color: #CC0000;
 }
 
-#mce-success-response {
+.success, #mce-success-response {
 	color: #336600;
 }
 
