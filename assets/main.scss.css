@@ -116,12 +116,12 @@ h1, .secondary {
 h1 {
 	font-family: "Cormorant Garamond", sans-serif; 
 	font-size: 3em; /* 16 x 3 = 48 */ 
-	font-weight: 700;
+	font-weight: 400;
 	margin-bottom: .5em;
 }
 
 h3, .mc-field-group .mce_inline_error:last-child {
-	font-family: "Proza Libre", sans-serif;
+	font-family: "Libre Franklin", sans-serif;
 	font-size: 1em; /* 16 x 1 = 16 */
 	font-weight: 400;
 	margin-bottom: 1em;
@@ -132,7 +132,7 @@ h3 {
 }
 
 p, input, .response {
-	font-family: "Proza Libre", sans-serif;
+	font-family: "Libre Franklin", sans-serif;
 	font-size: 1.25em; /* 16 x 1.25 = 20 */
 	font-weight: 400;
 	margin-bottom: 1em;
