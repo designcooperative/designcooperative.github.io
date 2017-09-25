@@ -45,6 +45,11 @@ input.field {
 	width: 100%;
 }
 
+input.field:focus {
+	box-shadow: 0 0 0 2px rgba(130, 190, 255, .75);
+	outline: none;
+}
+
 input.button {
 	padding: .5em 2em;
 	border: none;
