@@ -133,6 +133,7 @@ h3, .mc-field-group .mce_inline_error:last-child {
 	font-family: "Libre Franklin", sans-serif;
 	font-size: 1em; /* 16 x 1 = 16 */
 	font-weight: 400;
+	line-height: 1.5em;
 	margin-bottom: 1em;
 }
 
