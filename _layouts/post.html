@@ -1,0 +1,16 @@
+---
+---
+
+{% include header.html %}
+
+<h3>{{ page.date | date: "%B %-d, %Y" }} - {{ page.author }}</h3>
+
+<h2><a href="{{ post.url }}">{{ page.title }}</a></h2>
+
+<div class="divider"></div>
+
+<div class="post-content">
+	{{ page.content | markdownify }}
+</div>
+
+{% include footer.html %}

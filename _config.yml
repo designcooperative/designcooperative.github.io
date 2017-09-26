@@ -3,4 +3,6 @@ description: "Write an awesome description for your new site here. It will appea
 
 markdown: kramdown
 permalink: pretty
+excerpt_separator: <!-- more -->
+
 theme: minima
