@@ -5,6 +5,19 @@
 
 <h3>the D.co blog</h3>
 
-<p>Exciting things are coming...</p>
+{% for post in site.posts %}
+<a href="{{ post.url }}">
+	<div class="post-preview">
+		<a href="{{ post.url }}">
+		<div class="metadata"><h3>{{ post.date | date: "%B %-d, %Y" }} - {{ post.author }}</h3></div>
+
+		<div class="title"><h2>{{ post.title }}</h2></div>
+
+		<div class="divider"></div>
+
+		<div class="post-excerpt">{{ post.excerpt }}</div>
+	</div>
+</a>
+{% endfor %}
 
 {% include footer.html %}
