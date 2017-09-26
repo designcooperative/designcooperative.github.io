@@ -46,7 +46,7 @@ input.field {
 }
 
 input.field:focus {
-	box-shadow: 0 0 0 2px rgba(130, 190, 255, .75);
+	box-shadow: 0 0 2px 2px rgba(130, 190, 255, .75);
 	outline: none;
 }
 
@@ -206,8 +206,8 @@ a:hover {
 }
 
 .mc-field-group .mce_inline_error:last-child {
-    margin-top: -.75em;
-    margin-bottom: 1.25em;
+    margin-top: -.25em;
+    margin-bottom: 1em;
 }
 
 .error, .mce_inline_error, #mce-error-response {
