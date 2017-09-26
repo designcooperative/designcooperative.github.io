@@ -65,6 +65,10 @@ input.button:hover {
 	background-color: #777;
 }
 
+.block-link {
+	display: block;
+}
+
 #wrapper, footer {
 	width: 40em;
 	max-width: 90%;
