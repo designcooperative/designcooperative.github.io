@@ -218,6 +218,10 @@ a:hover {
 	color: #336600;
 }
 
+#mce-error-response, #mce-success-response {
+	padding-top: .5em;
+}
+
 /* responsive */
 
 @media (max-width: 30em) {
