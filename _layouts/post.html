@@ -10,6 +10,7 @@
 <div class="divider"></div>
 
 <div class="post-content">
+	{% include image.html url=page.lead-image-url caption=page.lead-image-caption %}
 	{{ page.content | markdownify }}
 </div>
 
