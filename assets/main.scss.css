@@ -51,7 +51,6 @@ input.field:focus {
 }
 
 input.button {
-	margin-top: .5em;
 	padding: .5em 2em;
 	border: none;
 	cursor: pointer; 
