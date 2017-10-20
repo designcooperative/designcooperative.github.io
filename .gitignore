@@ -1,3 +1,7 @@
+# Jekyll ignores
 _site/
 .sass-cache/
 .jekyll-metadata
+
+# OSX ignores
+.DS_Store
