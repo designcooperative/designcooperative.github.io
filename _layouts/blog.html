@@ -5,20 +5,22 @@
 
 <h3>the D.co blog</h3>
 
-{% for post in site.posts %}
-<a class="block-link" href="{{ post.url }}">
-	<div class="post-preview">
-		<div class="background-image" style="background-image: url({{ post.lead-image-url }})"></div>
+<div id="posts">
+	{% for post in site.posts %}
+	<a class="block-link" href="{{ post.url }}">
+		<div class="post-preview">
+			<div class="background-image" style="background-image: url({{ post.lead-image-url }})"></div>
 
-		<div class="metadata"><h3>{{ post.date | date: "%B %-d, %Y" }} - {{ post.author }}</h3></div>
+			<div class="metadata"><h3>{{ post.date | date: "%B %-d, %Y" }} - {{ post.author }}</h3></div>
 
-		<div class="title"><h2>{{ post.title }}</h2></div>
+			<div class="title"><h2>{{ post.title }}</h2></div>
 
-		<div class="divider"></div>
+			<div class="divider"></div>
 
-		<div class="post-excerpt">{{ post.excerpt }}</div>
-	</div>
-</a>
-{% endfor %}
+			<div class="post-excerpt">{{ post.excerpt }}</div>
+		</div>
+	</a>
+	{% endfor %}
+</div>
 
 {% include footer.html %}
