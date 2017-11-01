@@ -1,4 +1,6 @@
-<div class="image">
+<div class="image {% if include.caption == '' %}image-min-margin-bottom{% endif %}">
 	<img src="{{ include.url }}" alt="{{ include.description }}"/>
-	<h3>{{ include.caption }}</h3>
+	{% if include.caption != "" %}
+		<h3>{{ include.caption }}</h3>
+	{% endif %}
 </div>
