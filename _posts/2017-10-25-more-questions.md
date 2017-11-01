@@ -1,7 +1,7 @@
 ---
 title: More questions than answers
 author: the Design Cooperative
-lead-image-url: /assets/images/posts/advisor-meeting.jpg
+lead-image-url: /assets/images/posts/advisor-meeting.png
 lead-image-caption: Some happy folks with inquisitive minds.
 ---
 

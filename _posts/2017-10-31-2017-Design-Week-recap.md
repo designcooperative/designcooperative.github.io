@@ -1,7 +1,7 @@
 ---
 title: Design Week recap
 author: the Design Cooperative
-lead-image-url: /assets/images/posts/recap.jpg
+lead-image-url: /assets/images/posts/recap.png
 lead-image-caption: The Friday morning crew.
 ---
 
