@@ -193,7 +193,7 @@ img {
     background-color: #562800;
 }
 
-h1, h2, h3, h4, h4:before {
+h1, h2, h3, h4, h4:before, .mce_inline_error, #mce-success-response {
 	font-family: "Libre Franklin", sans-serif;
 }
 
